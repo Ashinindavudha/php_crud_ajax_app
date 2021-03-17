@@ -28,7 +28,7 @@ function getplayerrow(player) {
   if (player) {
     const userphoto = player.photo ? player.photo : "default.png";
     playerRow = `<tr>
-          <td class="align-middle"><img src="uploads/${userphoto}" class="img-thumbnail rounded float-left"></td>
+          <td class="align-middle"><img src="uploads/${userphoto}" class="img-thumbnail rounded float-left image-resize"></td>
           <td class="align-middle">${player.pname}</td>
           <td class="align-middle">${player.email}</td>
           <td class="align-middle">${player.phone}</td>
